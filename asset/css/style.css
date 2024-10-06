@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins/Poppins-Regular.ttf');
+  }
+@font-face {
+    font-family: 'inter';
+    src: url('../font/Inter/static/Inter_18pt-Regular.ttf');
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins';
+}
+p{
+    font-family: 'inter';
+
+}
+/* bg-color */
+.bg-color{
+    background-color: #15141A !important;
+}
+
+/* btn-color */
+.btn-bg{
+    background: linear-gradient(92.48deg, #FF922D 0%, #FF622D 82.97%);
+}
+/* btn-color */
+/* btn-border */
+.btn-border {
+    background: transparent;
+    color: white;
+    border: 2px solid #FF922D !important;
+}
+
+/* btn-border */
+
+
+
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.section-title span {
+    font-weight: bold;
+}
+.tech-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+.tech-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tech-card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+.tech-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666666;
+}
